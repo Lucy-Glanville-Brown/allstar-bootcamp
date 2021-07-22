@@ -13,6 +13,7 @@ body {
 }
 
 /* headings and logo */
+
 h1, h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
@@ -23,4 +24,34 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #454545;
+}
+
+.active {
+    border-bottom: 1px solid #454545;
 }
