@@ -9,4 +9,18 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
+    color: #354B45;
+}
+
+/* headings and logo */
+h1, h2 {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #454545;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
