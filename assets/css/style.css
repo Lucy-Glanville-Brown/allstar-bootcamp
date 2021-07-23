@@ -59,7 +59,7 @@ h1, h2 {
 
 /* hero image */
 
-#hero-outer {
+#hero {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -69,8 +69,17 @@ h1, h2 {
 
 #hero-image {
     height: 600px;
-    width: 100%;
+    width: 70%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    float: left;
+}
+
+#hero-text {
+    color: #454545;
+    background-color: #59fad7;
+    width: 30%;
+    float: right;
+    margin: 150px 0 150px 0;
 }
 
 /* information */
@@ -79,22 +88,16 @@ h1, h2 {
     height: 600px;
 }
 
-#left-about {
+#left-home {
     padding-top: 30px;
-    width: 33%;
+    width: 30%;
     float: left;
     background-color: blue;
 }
 
-#right-about {
+#right-home {
     padding-top: 30px;
-    width: 33%;
+    width: 70%;
     float: right;
     background-color: green;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: red;
 }
