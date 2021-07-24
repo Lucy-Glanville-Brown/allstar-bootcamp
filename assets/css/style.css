@@ -69,23 +69,35 @@ h1, h2 {
 
 #hero-image {
     height: 600px;
-    width: 70%;
+    width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
-    float: left;
+    background-size: 1600px;
 }
 
 #hero-text {
+    font-size: 110%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
     color: #454545;
     background-color: #59fad7;
-    width: 30%;
-    float: right;
-    margin: 150px 0 150px 0;
+
+    top: 150px;
+    right: 200px;
+
+    position: absolute;
 }
 
-/* information */
+/* information section */
 
 #info {
-    height: 600px;
+    height: 800px;
 }
 
 #left-home {
@@ -100,4 +112,18 @@ h1, h2 {
     width: 70%;
     float: right;
     background-color: green;
+}
+
+#left-home img {
+    height: 360px;
+    width: auto;
+    float: left;
+}
+
+#right-home p {
+    padding-top: 30px;
+}
+
+#right-home h1 {
+    padding: 10px;
 }
