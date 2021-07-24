@@ -170,3 +170,45 @@ footer {
     padding: 5%;
     color: #454545;
 }
+
+/* timetable */
+
+#left-timetable {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red;
+}
+
+#right-timetable {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#center-timetable {
+    padding-top: 30px;
+    width: 33%;
+    margin: auto;
+    background-color: blue;
+}
+
+#left-timetable img {
+    height: 300px;
+    width: auto;
+    float: left;
+    margin: 10px;
+}
+
+#right-timetable img {
+    height: 300px;
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+.timetable li {
+    list-style: none;
+    text-align: left;
+}
