@@ -234,6 +234,14 @@ footer {
     background-color: green;
 }
 
+#contact-us-right img {
+    height: 500px;
+    width: auto;
+    float: left;
+    margin: 10px;
+}
+
+
 /* signup form */
 
 .signup-form {
@@ -245,7 +253,6 @@ footer {
     color: #454545;
     background-color: #59fad7;
     max-width: 400px;
-    position: absolute;
     padding: 30px;
     border: 2px solid green;
 }
