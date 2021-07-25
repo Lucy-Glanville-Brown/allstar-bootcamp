@@ -102,6 +102,7 @@ h1, h2 {
 
 #left-home {
     padding-top: 30px;
+    padding-bottom: 30px;
     width: 30%;
     float: left;
     background-color: blue;
@@ -109,23 +110,25 @@ h1, h2 {
 
 #right-home {
     padding-top: 30px;
+    padding-bottom: 30px;
     width: 70%;
     float: right;
     background-color: green;
 }
 
 #left-home img {
-    height: 360px;
+    height: 435px;
     width: auto;
     float: left;
+    margin: 10px;
 }
 
 #right-home p {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #right-home h1 {
-    padding: 10px;
+    padding: 20px;
 }
 
 /* footer */
