@@ -34,7 +34,27 @@
         </nav>
     </header>
     <section id="contact-us-left">
-        <div>Sign Up</div>
+        <div class="signup-form">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup">
+                <h2>Sign Up Here</h2>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first-name" type="text" required class="text-input">
+
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last-name" type="text" required class="text-input">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email-address" required class="text-input">
+
+                <label for="morning">Mornings</label>
+                <input type="radio" id="morning" name="time_preference" value="morning" required>
+
+                <label for="evening">Evenings</label>
+                <input type="radio" id="evening" name="time_preference" value="evening" required>
+
+                <input class="join-button" type="submit" value="Let's Go!">
+            </form>
+        </div>
         <div>Map</div>
     </section>
     <section id="contact-us-right">
