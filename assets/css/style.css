@@ -143,34 +143,6 @@ footer {
     height: 75px;
 }
 
-#left-footer {
-    height: 75px;
-    float: left;
-}
-
-.footer-menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    line-height: 50px;
-    display: inline;
-}
-
-.footer-menu li {
-    float: left;
-    list-style-type: none;
-    margin-left: 20px;
-    margin-top: 80px;
-}
-
-.footer-menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-menu a:hover {
-    border-bottom: 1px solid #454545;
-}
-
 .social-media {
     text-align: center;
 }
@@ -250,6 +222,136 @@ footer {
 .grid-container h3 {
     text-transform: uppercase;
     padding-top: 10px;
+}
+
+/* more info*/
+
+#more-info-left {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    background-color: blue;
+}
+
+#more-info-right {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 70%;
+    height: 300px;
+    float: right;
+    background-color: green;
+}
+
+#more-info-left img {
+    height: 250px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+#more-info-right p {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#more-info-right h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#bootcamp-left {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 70%;
+    height: 350px;
+    float: left;
+    background-color: red;
+}
+
+#bootcamp-right {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 30%;
+    height: 350px;
+    float: right;
+    background-color: yellow;
+}
+
+#bootcamp-left p {
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#bootcamp-left h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#bootcamp-left ul {
+    margin: 10px;
+}
+
+.equipment-list li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+#bootcamp-right img {
+    height: 250px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+#workout-left {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    background-color: aqua;
+}
+
+#workout-right {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 70%;
+    height: 300px;
+    float: right;
+    background-color: orange;
+}
+
+#workout-left img {
+    height: 250px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+#workout-right p {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#workout-right h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#workout-right ul {
+    margin: 10px;
+}
+
+.exercise-list li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 20px;
 }
 
 /* contact us */
