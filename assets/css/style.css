@@ -21,7 +21,7 @@ h1, h2 {
     color: #454545;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -29,27 +29,27 @@ h1, h2 {
 
 /* navigation links */
 
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+.menu, .logo {
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #454545;
 }
 
@@ -59,7 +59,7 @@ h1, h2 {
 
 /* hero image */
 
-#hero {
+.hero {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -67,14 +67,14 @@ h1, h2 {
     position: relative;
 }
 
-#hero-image {
+.hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: 1550px;
 }
 
-#hero-text {
+.hero-text {
     font-size: 120%;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -96,25 +96,25 @@ h1, h2 {
 
 /* information section */
 
-#info {
+.info {
     height: 800px;
 }
 
-#left-home {
+.left-home {
     padding-top: 30px;
     width: 30%;
     float: left;
     background-color: blue;
 }
 
-#right-home {
+.right-home {
     padding-top: 30px;
     width: 70%;
     float: right;
     background-color: green;
 }
 
-#left-home img {
+.left-home img {
     height: 600px;
     width: auto;
     display: block;
@@ -122,14 +122,14 @@ h1, h2 {
     margin-right: auto;
 }
 
-#right-home p {
+.right-home p {
     font-size: 20px;
     line-height: 1.6;
     letter-spacing: 2px;
     margin-left: 10px;
 }
 
-#right-home h2 {
+.right-home h2 {
     font-size: 30px;
     line-height: 1.6;
     letter-spacing: 2px;
@@ -142,7 +142,7 @@ footer {
     height: 150px;
 }
 
-#center-footer {
+.center-footer {
     height: 75px;
 }
 
@@ -163,28 +163,28 @@ footer {
 
 /* timetable */
 
-#left-timetable {
+.left-timetable {
     padding-top: 30px;
     width: 35%;
     float: left;
     background-color: red;
 }
 
-#right-timetable {
+.right-timetable {
     padding-top: 30px;
     width: 35%;
     float: right;
     background-color: green;
 }
 
-#center-timetable {
+.center-timetable {
     padding-top: 25px;
     width: 30%;
     float: left;
     background-color: blue;
 }
 
-#left-timetable img {
+.left-timetable img {
     height: 300px;
     width: auto;
     display: block;
@@ -193,7 +193,7 @@ footer {
     padding: 10px;
 }
 
-#right-timetable img {
+.right-timetable img {
     height: 300px;
     width: auto;
     display: block;
@@ -234,7 +234,7 @@ footer {
 
 /* more info*/
 
-#more-info-left {
+.more-info-left {
     padding-top: 30px;
     padding-bottom: 10px;
     width: 30%;
@@ -243,7 +243,7 @@ footer {
     background-color: blue;
 }
 
-#more-info-right {
+.more-info-right {
     padding-top: 30px;
     padding-bottom: 10px;
     width: 70%;
@@ -252,7 +252,7 @@ footer {
     background-color: green;
 }
 
-#more-info-left img {
+.more-info-left img {
     height: 250px;
     width: auto;
     display: block;
@@ -260,18 +260,18 @@ footer {
     margin-right: auto;
 }
 
-#more-info-right p {
+.more-info-right p {
     padding-top: 20px;
     padding-left: 10px;
     font-size: 20px;
 }
 
-#more-info-right h2 {
+.more-info-right h2 {
     padding: 10px;
     font-size: 30px;
 }
 
-#bootcamp-left {
+.bootcamp-left {
     padding-top: 20px;
     padding-bottom: 15px;
     width: 70%;
@@ -280,7 +280,7 @@ footer {
     background-color: red;
 }
 
-#bootcamp-right {
+.bootcamp-right {
     padding-top: 20px;
     padding-bottom: 15px;
     width: 30%;
@@ -289,18 +289,18 @@ footer {
     background-color: yellow;
 }
 
-#bootcamp-left p {
+.bootcamp-left p {
     padding-top: 20px;
     margin-left: 10px;
     font-size: 20px;
 }
 
-#bootcamp-left h2 {
+.bootcamp-left h2 {
     padding: 10px;
     font-size: 30px;
 }
 
-#bootcamp-left ul {
+.bootcamp-left ul {
     margin: 10px;
 }
 
@@ -310,7 +310,7 @@ footer {
     font-size: 20px;
 }
 
-#bootcamp-right img {
+.bootcamp-right img {
     height: 255px;
     width: auto;
     display: block;
@@ -318,7 +318,7 @@ footer {
     margin-right: auto;
 }
 
-#workout-left {
+.workout-left {
     padding-top: 30px;
     padding-bottom: 15px;
     width: 30%;
@@ -327,7 +327,7 @@ footer {
     background-color: aqua;
 }
 
-#workout-right {
+.workout-right {
     padding-top: 30px;
     padding-bottom: 15px;
     width: 70%;
@@ -336,7 +336,7 @@ footer {
     background-color: orange;
 }
 
-#workout-left img {
+.workout-left img {
     height: 250px;
     width: auto;
     display: block;
@@ -344,18 +344,18 @@ footer {
     margin-right: auto;
 }
 
-#workout-right p {
+.workout-right p {
     padding-top: 20px;
     padding-left: 10px;
     font-size: 20px;
 }
 
-#workout-right h2 {
+.workout-right h2 {
     padding: 10px;
     font-size: 30px;
 }
 
-#workout-right ul {
+.workout-right ul {
     margin: 10px;
 }
 
@@ -367,7 +367,7 @@ footer {
 
 /* contact us */
 
-#signup-left {
+.signup-left {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 40%;
@@ -375,7 +375,7 @@ footer {
     background-color: blue;
 }
 
-#signup-right {
+.signup-right {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 60%;
@@ -383,7 +383,7 @@ footer {
     background-color: green;
 }
 
-#signup-right img {
+.signup-right img {
     height: 410px;
     width: auto;
     display: block;
@@ -391,13 +391,13 @@ footer {
     margin-right: auto;
 }
 
-#contact-info-left {
+.contact-info-left {
     width: 60%;
     float: left;
     background-color: red;
 }
 
-#contact-info-right {
+.contact-info-right {
     width: 40%;
     float: right;
     background-color: yellow;
