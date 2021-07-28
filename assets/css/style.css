@@ -97,7 +97,7 @@ h1, h2 {
 /* information section */
 
 .info {
-    height: 800px;
+    height: 600px;
 }
 
 .left-home {
@@ -551,3 +551,181 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/* for medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        }
+        
+    .hero-text {
+        line-height: 1.2;
+        letter-spacing: 2px;
+        padding: 10px;
+        top: 350px;
+        right: 50px;
+        }
+        
+    .info {
+        height: 500px;
+    }
+        
+    .left-home {
+       height: 500px; 
+    }
+    .left-home img {
+        height: 400px;
+        width: 280px;
+    }
+
+    .right-home {
+        height: 500px;
+    }
+
+    .right-home p {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    
+    .right-home h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    
+    .left-timetable {
+        height: 600px;
+    }
+    .left-timetable img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .right-timetable {
+        height: 600px;
+    }
+
+    .right-timetable img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .center-timetable {
+        height: 600px;
+    }
+
+    .more-info-left {
+        height: 325px;
+        float: left;
+    }
+    .more-info-left img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .more-info-right {
+        height: 325px;
+        float: right;
+    }
+
+    .more-info-right h2 {
+        font-size: 28px;
+    }
+
+    .more-info-right p {
+        font-size: 18px;
+    }
+
+    .bootcamp-left {
+        height: 325px;
+        float: left;
+    }
+
+    .bootcamp-left h2 {
+        font-size: 28px;  
+    }
+
+    .bootcamp-left p {
+        font-size: 18px;
+    }
+
+    .bootcamp-right {
+        height: 325px;
+        float: right;
+    }
+
+    .bootcamp-right img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .workout-left {
+        height: 325px;
+        float: left;
+    }
+
+    .workout-left img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .workout-right {
+        height: 325px;
+        float: right;
+    }
+
+    .workout-right h2 {
+        font-size: 28px;
+    }
+
+    .workout-right p {
+        font-size: 18px;
+    }
+
+    .signup-left {
+        height: 400px;
+    }
+
+    .signup-right {
+        height: 400px;
+    }
+
+    .signup-right img {
+        height: 300px;
+    }
+
+    .contact-info-left {
+        height: 300px;
+    }
+
+    .contact-info h2 {
+        font-size: 28px;
+    }
+
+    .contact-info p {
+        font-size: 18px;
+    }
+
+    .contact-info-right {
+        height: 300px;
+    }
+
+    #map {
+        width: 500px;
+        height: 200px
+    }
+
+    .signup {
+        max-width: 250px;
+        height: 300px;
+    }
+
+
+
+}
