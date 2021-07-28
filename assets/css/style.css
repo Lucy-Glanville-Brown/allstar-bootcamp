@@ -166,6 +166,7 @@ footer {
 .left-timetable {
     padding-top: 30px;
     width: 35%;
+    height: 700px;
     float: left;
     background-color: red;
 }
@@ -173,6 +174,7 @@ footer {
 .right-timetable {
     padding-top: 30px;
     width: 35%;
+    height: 700px;
     float: right;
     background-color: green;
 }
@@ -180,6 +182,7 @@ footer {
 .center-timetable {
     padding-top: 25px;
     width: 30%;
+    height: 700px;
     float: left;
     background-color: blue;
 }
@@ -371,6 +374,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 40%;
+    height: 400px;
     float: left;
     background-color: blue;
 }
@@ -379,6 +383,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 60%;
+    height: 400px;
     float: right;
     background-color: green;
 }
@@ -393,12 +398,14 @@ footer {
 
 .contact-info-left {
     width: 60%;
+    height: 300px;
     float: left;
     background-color: red;
 }
 
 .contact-info-right {
     width: 40%;
+    height: 300px;
     float: right;
     background-color: yellow;
 }
@@ -462,3 +469,84 @@ footer {
     background-color: #454545;
     color: #59fad7;
 }
+
+/* media queries */
+
+/* for larger to medium sized screens from 1200px */
+
+@media screen and (max-width: 1200px) {
+    .hero {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .info {
+        width: 100%;
+        height: 800px;
+    }
+
+    .more-info-left {
+        width: 30%;
+        height: 300px;
+    }
+
+    .more-info-right {
+        width: 70%;
+        height: 300px;
+    }
+
+    .bootcamp-left {
+        width: 70%;
+        height: 350px;
+    }
+
+    .bootcamp-right {
+        width: 30%;
+        height: 350px;
+    }
+
+    .workout-left {
+        width: 30%;
+        height: 300px;
+    }
+
+    .workout-right {
+        width: 70%;
+        height: 300px;
+    }
+
+    .left-timetable {
+        width: 35%;
+        height: 700px;
+    }
+
+    .right-timetable {
+        width: 35%;
+        height: 700px;
+    }
+
+    .center-timetable {
+        width: 30%;
+        height: 700px;
+    }
+
+    .signup-left {
+        width: 40%;
+        height: 400px;
+    }
+
+    .signup-right{
+        width: 60%;
+        height: 400px;
+    }
+
+    .contact-info-left {
+        width: 60%;
+        height: 300px;
+    }
+
+    .contact-info-right {
+        width: 40%;
+        height: 300px;
+    }
