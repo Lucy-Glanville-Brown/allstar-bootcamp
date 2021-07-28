@@ -115,11 +115,12 @@ h1, h2 {
 }
 
 .left-home img {
-    height: 600px;
+    height: 550px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 .right-home p {
@@ -499,72 +500,54 @@ footer {
         margin: 0 auto;
     }
 
-    .info {
-        width: 100%;
-        height: 800px;
-    }
-
-    .more-info-left {
+    .left-home {
         width: 30%;
-        height: 300px;
+        height: 630px;
     }
 
-    .more-info-right {
+    .left-home img {
+        height: 498px;
+        width: 350px;
+        padding-top: 40px;
+    }
+
+    .right-home {
         width: 70%;
-        height: 300px;
+        height: 630px;
     }
 
-    .bootcamp-left {
-        width: 70%;
-        height: 350px;
+    .more-info-left img {
+        width: 350px;
+        height: 250px;
+        padding-top: 25px;
+    }
+ 
+    .bootcamp-right img {
+        width: 350px;
+        height: 250px;
+        padding-top: 25px;
     }
 
-    .bootcamp-right {
-        width: 30%;
-        height: 350px;
+    .workout-left img {
+        width: 350px;
+        height: 250px;
+        padding-top: 25px;
     }
 
-    .workout-left {
-        width: 30%;
-        height: 300px;
+    .left-timetable img {
+        width: auto;
+        height: 250px;
+        padding-top: 25px;
     }
 
-    .workout-right {
-        width: 70%;
-        height: 300px;
+    .right-timetable img {
+        width: auto;
+        height: 250px;
+        padding-top: 25px;
     }
 
-    .left-timetable {
-        width: 35%;
-        height: 700px;
-    }
-
-    .right-timetable {
-        width: 35%;
-        height: 700px;
-    }
-
-    .center-timetable {
-        width: 30%;
-        height: 700px;
-    }
-
-    .signup-left {
-        width: 40%;
-        height: 400px;
-    }
-
-    .signup-right{
-        width: 60%;
-        height: 400px;
-    }
-
-    .contact-info-left {
-        width: 60%;
-        height: 300px;
-    }
-
-    .contact-info-right {
-        width: 40%;
-        height: 300px;
+    .grid-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
