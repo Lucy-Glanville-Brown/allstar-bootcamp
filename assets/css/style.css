@@ -261,6 +261,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 .more-info-right p {
@@ -307,18 +308,18 @@ footer {
     margin: 10px;
 }
 
-.equipment-list li {
-    list-style-type: circle;
-    list-style-position: inside;
-    font-size: 20px;
-}
-
 .bootcamp-right img {
     height: 255px;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.equipment-list li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 20px;
 }
 
 .workout-left {
@@ -345,6 +346,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
 }
 
 .workout-right p {
@@ -397,17 +399,18 @@ footer {
 }
 
 .contact-info-left {
-    width: 60%;
-    height: 300px;
-    float: left;
-    background-color: red;
-}
-
-.contact-info-right {
+    margin-top: 20px;
     width: 40%;
-    height: 300px;
-    float: right;
+    height: 350px;
+    float: left;
     background-color: yellow;
+}
+.contact-info-right {
+    margin-top: 20px;
+    width: 60%;
+    height: 350px;
+    float: right;
+    background-color: red;
 }
 
 .contact-info {
@@ -417,13 +420,28 @@ footer {
 
 .contact-info h2 {
     margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contact-info p, div{
+    font-size: 20px;
+}
+
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 600px;
+    height: 300px
 }
 
 
 /* signup form */
 
 .signup-form {
-    clear: left;
+    float: left;
+    margin-left: 25px;
 }
 
 .signup {
