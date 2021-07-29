@@ -167,7 +167,7 @@ footer {
 .left-timetable {
     padding-top: 30px;
     width: 35%;
-    height: 700px;
+    height: 650px;
     float: left;
     background-color: red;
 }
@@ -175,15 +175,16 @@ footer {
 .right-timetable {
     padding-top: 30px;
     width: 35%;
-    height: 700px;
+    height: 650px;
     float: right;
     background-color: green;
 }
 
 .center-timetable {
     padding-top: 25px;
+    padding-bottom: 5px;
     width: 30%;
-    height: 700px;
+    height: 650px;
     float: left;
     background-color: blue;
 }
@@ -564,13 +565,22 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
         }
+
+    .hero {
+        height: 400px;
+    }    
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
         
     .hero-text {
         line-height: 1.2;
         letter-spacing: 2px;
         padding: 10px;
-        top: 350px;
-        right: 50px;
+        top: 160px;
+        right: 40px;
         }
         
     .info {
@@ -580,6 +590,7 @@ footer {
     .left-home {
        height: 500px; 
     }
+
     .left-home img {
         height: 400px;
         width: 280px;
@@ -600,92 +611,132 @@ footer {
     }
     
     .left-timetable {
-        height: 600px;
+        width: 50%;
+        height: auto;
+        padding-top: 10px;
     }
     .left-timetable img {
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
+        padding-top: 10px;
     }
 
     .right-timetable {
-        height: 600px;
+        width: 50%;
+        height: auto;
+        padding-top: 10px;
+        float: left;
     }
 
     .right-timetable img {
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
+        padding-top: 10px;
     }
 
     .center-timetable {
-        height: 600px;
-    }
-
-    .more-info-left {
-        height: 325px;
-        float: left;
-    }
-    .more-info-left img {
-        width: 280px;
-        height: 200px;
-    }
-
-    .more-info-right {
-        height: 325px;
+        width: 50%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 59px;
         float: right;
     }
 
+    .grid-container {
+        width: 60%;
+        height: 80%;
+    }
+
+    .more-info-left {
+        height: 220px;
+        width: 25%;
+        position: absolute;
+        top: 7.5em;
+        padding-top: 10px;
+    
+    }
+    .more-info-left img {
+        width: 235px;
+        height: auto;
+    }
+
+    .more-info-right {
+        height: 220px;
+        width: 75%;
+        padding-top: 10px;
+    }
+
     .more-info-right h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .more-info-right p {
-        font-size: 18px;
+        font-size: 16px;
+        padding-top: 5px;
     }
 
     .bootcamp-left {
-        height: 325px;
+        height: 255px;
+        width: 70%;
+        padding-top: 10px;
         float: left;
     }
 
     .bootcamp-left h2 {
-        font-size: 28px;  
+        font-size: 26px;  
     }
 
     .bootcamp-left p {
-        font-size: 18px;
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .equipment-list li {
+        font-size: 16px;
     }
 
     .bootcamp-right {
-        height: 325px;
-        float: right;
+        height: 255px;
+        width: 20%;
+        padding-top: 10px;
+    
     }
 
     .bootcamp-right img {
-        width: 280px;
-        height: 200px;
+        width: 200px;
+        height: auto;
     }
 
     .workout-left {
-        height: 325px;
+        height: 260px;
+        width: 20%;
+        padding-top: 10px;
         float: left;
     }
 
     .workout-left img {
-        width: 280px;
-        height: 200px;
+        width: 240px;
+        height: auto;
     }
 
     .workout-right {
-        height: 325px;
-        float: right;
+        height: 260px;
+        width: 70%;
+        padding-top: 10px;
+        float: left;
     }
 
     .workout-right h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .workout-right p {
-        font-size: 18px;
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .equipment-list li {
+        font-size: 16px;
     }
 
     .signup-left {
