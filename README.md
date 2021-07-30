@@ -45,11 +45,20 @@ I decided to use “Josefin Sans” and “San-serif” for the main body text w
 •	I wanted the user to be able to easily navigate through the website by creating a fixed-top navbar.
 ### Homepage
 •	Contains a hero-image which draws the users attention 
+
 •	There is also a text box over the hero-image with some buzz words
-•	Photo of Personal Trainer …
-•	About us section …
+
+•	Photo of Personal Trainer to show who you will be working with
+
+•	About us section includes a brief introduction to what the bootcamp is about and a short bio about the personal trainer.
+
 ### Timetable
-•	
+•	Left section shows two images of people attending the bootcamp
+
+•	Center section has a timetable which shows the days and times of each session
+
+•	Right section shows two images of people attending the bootcamp
+
 ### More Info
 
 ### Contact Us
@@ -67,7 +76,7 @@ This website is hosted through GitHub and is deployed directly from the main bra
 ### Content
 All content in the pages has been written by me.
 ### Media
-All photos were taken from Shutterstock and pixabay which are an image library.
+All photos were taken from Shutterstock and pixabay which are image libraries.
 ### Acknowledgements
 To create the timetable grid container I researched how to do this on W3 Schools https://www.w3schools.com/css/css_grid_container.asp
 
