@@ -115,12 +115,11 @@ h1, h2 {
 }
 
 .left-home img {
-    height: 550px;
+    height: 535px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
 }
 
 .right-home p {
@@ -501,6 +500,10 @@ footer {
         margin: 0 auto;
     }
 
+    .info {
+        height: 680px;
+    }
+    
     .left-home {
         width: 30%;
         height: 630px;
@@ -610,6 +613,7 @@ footer {
         line-height: 1.2;
     }
     
+    
     .left-timetable {
         width: 50%;
         height: auto;
@@ -647,6 +651,7 @@ footer {
         height: 80%;
     }
 
+
     .more-info-left {
         height: 220px;
         width: 25%;
@@ -677,7 +682,7 @@ footer {
 
     .bootcamp-left {
         height: 255px;
-        width: 70%;
+        width: 75%;
         padding-top: 10px;
         float: left;
     }
@@ -697,19 +702,20 @@ footer {
 
     .bootcamp-right {
         height: 255px;
-        width: 20%;
+        width: 25%;
         padding-top: 10px;
-    
+        float: left;
     }
 
     .bootcamp-right img {
-        width: 200px;
+        width: 250px;
         height: auto;
+        margin-top: 20px;
     }
 
     .workout-left {
         height: 260px;
-        width: 20%;
+        width: 25%;
         padding-top: 10px;
         float: left;
     }
@@ -717,11 +723,12 @@ footer {
     .workout-left img {
         width: 240px;
         height: auto;
+        margin-top: 40px;
     }
 
     .workout-right {
         height: 260px;
-        width: 70%;
+        width: 75%;
         padding-top: 10px;
         float: left;
     }
@@ -735,24 +742,33 @@ footer {
         padding-top: 5px;
     }
 
-    .equipment-list li {
+    .exercise-list li {
         font-size: 16px;
     }
 
+
     .signup-left {
-        height: 400px;
+        height: 420px;
+        position: absolute;
+        top: 7.5em;
     }
 
     .signup-right {
-        height: 400px;
+        height: 420px;
+        position: absolute;
+        top: 7.5em;
+        left: 24em;
     }
 
     .signup-right img {
-        height: 300px;
+        height: 350px;
+        margin-top: 30px;
     }
 
     .contact-info-left {
         height: 300px;
+        position: absolute;
+        top: 36.5em;
     }
 
     .contact-info h2 {
@@ -765,6 +781,9 @@ footer {
 
     .contact-info-right {
         height: 300px;
+        position: absolute;
+        top: 36.5em;
+        left: 24em;
     }
 
     #map {
@@ -774,9 +793,18 @@ footer {
 
     .signup {
         max-width: 250px;
-        height: 300px;
     }
 
+    .signup-form {
+        margin-left: 10px; 
+    }
 
+    .signup h2 {
+        font-size: 28px;
+    }
+
+    footer {
+        
+    }
 
 }
