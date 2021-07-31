@@ -97,7 +97,12 @@ h1, h2 {
 /* information section */
 
 .info {
-    height: 600px;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .left-home {
@@ -247,11 +252,12 @@ footer {
 /* more info*/
 
 .more-info-main {
-    height: 90vh;
+    height: 110vh;
     position: relative;
     display: flex;
     width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .more-info-left {
@@ -260,6 +266,8 @@ footer {
     width: 30%;
     height: 300px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .more-info-right {
@@ -267,7 +275,9 @@ footer {
     padding-bottom: 10px;
     width: 70%;
     height: 300px;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .more-info-left img {
@@ -283,11 +293,13 @@ footer {
     padding-top: 20px;
     padding-left: 10px;
     font-size: 20px;
+    margin-left: 15px;
 }
 
 .more-info-right h2 {
     padding: 10px;
     font-size: 30px;
+    margin-left: 5px;
 }
 
 .bootcamp-left {
@@ -295,7 +307,9 @@ footer {
     padding-bottom: 15px;
     width: 70%;
     height: 350px;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bootcamp-right {
@@ -303,36 +317,42 @@ footer {
     padding-bottom: 15px;
     width: 30%;
     height: 350px;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bootcamp-left p {
     padding-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 20px;
+    margin-left: 15px;
 }
 
 .bootcamp-left h2 {
     padding: 10px;
     font-size: 30px;
-}
-
-.bootcamp-left ul {
-    margin: 10px;
+    margin-left: 5px;
 }
 
 .bootcamp-right img {
     height: 255px;
     width: auto;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 30px;
+}
+
+.bootcamp-left ul {
+    margin: 20px;
 }
 
 .equipment-list li {
     list-style-type: circle;
     list-style-position: inside;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .workout-left {
@@ -340,7 +360,9 @@ footer {
     padding-bottom: 15px;
     width: 30%;
     height: 300px;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .workout-right {
@@ -348,7 +370,9 @@ footer {
     padding-bottom: 15px;
     width: 70%;
     height: 300px;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .workout-left img {
@@ -372,13 +396,14 @@ footer {
 }
 
 .workout-right ul {
-    margin: 10px;
+    margin: 20px;
 }
 
 .exercise-list li {
     list-style-type: circle;
     list-style-position: inside;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 /* contact us */
@@ -516,6 +541,11 @@ footer {
 /* for larger to medium sized screens from 1200px and down */
 
 @media screen and (max-width: 1200px) {
+
+    .menu {
+        float: right;
+    }
+
     .hero {
         width: 100%;
         height: 600px;
@@ -533,8 +563,8 @@ footer {
     }
 
     .left-home img {
-        height: 498px;
-        width: 350px;
+        height: 450px;
+        width: 310px;
         padding-top: 30px;
     }
 
@@ -562,13 +592,13 @@ footer {
     }
 
     .left-timetable img {
-        width: auto;
+        width: 350px;
         height: 250px;
         padding-top: 25px;
     }
 
     .right-timetable img {
-        width: auto;
+        width: 350px;
         height: 250px;
         padding-top: 25px;
     }
@@ -578,20 +608,21 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .signup-right img {
+        height: 380px;
+    }
+
+    #map {
+        width: 550px;
+    }
+
 }
 
 /* for medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-
-    .menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        }
-
+    
     .hero {
         height: 400px;
     }    
@@ -636,10 +667,6 @@ footer {
         line-height: 1.2;
     }
     
-    .timetable-main {
-        
-    }
-    
     .left-timetable {
         width: 50%;
         height: auto;
@@ -677,14 +704,15 @@ footer {
         height: 80%;
     }
 
+    .more-info-main {
+        height: 150vh;
+        padding: 5px;
+    }
 
     .more-info-left {
-        height: 220px;
+        height: max-content;
         width: 25%;
-        position: absolute;
-        top: 7.5em;
-        padding-top: 10px;
-    
+        padding: 0;
     }
     .more-info-left img {
         width: 235px;
@@ -692,9 +720,9 @@ footer {
     }
 
     .more-info-right {
-        height: 220px;
+        height: max-content;
         width: 75%;
-        padding-top: 10px;
+        padding: 0;
     }
 
     .more-info-right h2 {
@@ -707,10 +735,9 @@ footer {
     }
 
     .bootcamp-left {
-        height: 255px;
+        height: max-content;
         width: 75%;
-        padding-top: 10px;
-        float: left;
+        padding: 0;
     }
 
     .bootcamp-left h2 {
@@ -727,36 +754,31 @@ footer {
     }
 
     .bootcamp-right {
-        height: 255px;
+        height: max-content;
         width: 25%;
-        padding-top: 10px;
-        float: left;
+        padding: 0;
     }
 
     .bootcamp-right img {
         width: 250px;
         height: auto;
-        margin-top: 20px;
     }
 
     .workout-left {
-        height: 260px;
+        height: max-content;
         width: 25%;
-        padding-top: 10px;
-        float: left;
+        padding: 0;
     }
 
     .workout-left img {
         width: 240px;
         height: auto;
-        margin-top: 40px;
     }
 
     .workout-right {
-        height: 260px;
+        height: max-content;
         width: 75%;
-        padding-top: 10px;
-        float: left;
+        padding: 0;
     }
 
     .workout-right h2 {
@@ -775,15 +797,12 @@ footer {
 
     .signup-left {
         height: 420px;
-        position: absolute;
-        top: 7.5em;
+        
     }
 
     .signup-right {
         height: 420px;
-        position: absolute;
-        top: 7.5em;
-        left: 24em;
+        
     }
 
     .signup-right img {
@@ -793,8 +812,7 @@ footer {
 
     .contact-info-left {
         height: 300px;
-        position: absolute;
-        top: 36.5em;
+        
     }
 
     .contact-info h2 {
@@ -807,9 +825,7 @@ footer {
 
     .contact-info-right {
         height: 300px;
-        position: absolute;
-        top: 36.5em;
-        left: 24em;
+        
     }
 
     #map {
@@ -834,24 +850,6 @@ footer {
 
 @media screen and (max-width: 800px) {
 
-    body {
-        font-weight: 150;
-    }
-    
-    h1, h2 {
-        letter-spacing: 2px;
-    }
-
-    .logo {
-        font-size: 80%;
-    }
-
-    .menu {
-        font-size: 80%;
-        clear: left;
-        float: left;
-    }
-
     .hero {
         height: 200px;
     }
@@ -862,12 +860,13 @@ footer {
     }
 
     .hero-text {
-        font-size: 40%;
-        letter-spacing: 2px;
-        line-height: 1.2;
-        padding: 10px;
-        top: 25px;
+        font-size: 80%;
+        top: 35px;
         right: 10px;
+    }
+
+    .info {
+        height: 90vh;
     }
 
     .left-home {
@@ -885,21 +884,19 @@ footer {
     }
 
     .timetable-main {
-        height: 100vh;   
+        height: 90vh;   
     }
 
     .left-timetable {
         width: 50%;
-        height: 250px;
-        
+        height: max-content;  
     }
 
     .right-timetable {
         width: 50%;
-        height: 20vh;
         position: absolute;
-        left: 2px;
-        top: 25vh;
+        left: 0.5vw;
+        top: 45vh;
     }
 
     .center-timetable {
@@ -910,38 +907,41 @@ footer {
     }
   
     .left-timetable img {
-        width: 140px;
-        height: 100px;    
+        width: 300px;
+        height: 200px;    
     }
 
     .right-timetable img {
-        width: 140px;
-        height: 100px;   
+        width: 300px;
+        height: 200px;   
     }
 
     .grid-container {
-        gap: 8px;
-        margin: 0;
         width: max-content;
+        margin-top: 15px;
     }
 
     .grid-container > h2 {
-        font-size: 22px;
+        font-size: 40px;
     }
-
+    
     .grid-container > div {
-        font-size: 12px;
-        line-height: 1.2;
+        font-size: 30px;
+    }
+    
+    .grid-container div {
+        font-size: 30px;
     }
 
-    .grid-container h3 {
-        font-size: 16px;
+
+    .more-info-main {
+        height: 130vh;
     }
 
-    .more-info-right {
-        
+    .more-info-right { 
         width: 100%;
         height: max-content;
+        margin-right: 15px;
     }
 
     .more-info-left {
@@ -997,30 +997,26 @@ footer {
         height: max-content;
     }
 
+
     .contact-us-main {
-        height: 120vh;
+        height: 80vh;
     }
 
     .signup-left {
-        width: 100%;
-        height: max-content;
-        
+        width: 50%;
+        height: max-content;       
     }
 
     .signup-right {
-        width: 100%;
+        width: 50%;
         height: max-content;
-       
     }
 
-    .signup {
-        margin: 0;
+    .signup-right img {
+        width: 360px;
+        height: 270px;
     }
-
-    .signup-form {
-        margin: 0;
-    }
-
+ 
     .signup > h2 {
         font-size: 22px;
         margin-bottom: 10px;
@@ -1031,28 +1027,18 @@ footer {
     }
       
     .join-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px;
-        text-align: center;
         font-size: 80%;
-        background-color: #fafafa;
-        color: #454545;
-        display: block;
     }  
 
     .contact-info-left {
-        width: 100%;
+        width: 50%;
         height: max-content;
     }
 
     .contact-info-right {
-        width: 100%;
+        width: 50%;
         height: max-content;
         float: left;
     }
-
-
-
-
 }
+
