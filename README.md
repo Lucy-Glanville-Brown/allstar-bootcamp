@@ -84,28 +84,46 @@ I decided to use “Josefin Sans” and “San-serif” for the main body text w
 
 ## Testing
 •	W3C Markup Validator
-index.html
+
+index.html - section for the footer lacks heading
+
 ![image](https://user-images.githubusercontent.com/85178695/127752143-5caeec8d-865c-441e-84b2-28bbf48b6158.png)
 
-timetable.html
+timetable.html - section for the footer lacks heading
+
 ![image](https://user-images.githubusercontent.com/85178695/127752144-021dac46-5dcf-45b7-b556-71a61d342d32.png)
 
-more-info.html
+more-info.html - section for the footer lacks heading
+
 ![image](https://user-images.githubusercontent.com/85178695/127752147-d97c6e2c-8465-40e2-8489-654ad3203d61.png)
 
-contact-us.html
+contact-us.html - section for the footer lacks heading
+
 ![image](https://user-images.githubusercontent.com/85178695/127752148-e90b0261-f2f3-4394-b947-1a3104834c2c.png)
 
 
 •	W3C CSS Validator
+
 ![image](https://user-images.githubusercontent.com/85178695/127752165-5093ee9b-d3b6-421f-8d85-8f14808edc39.png)
 
 •	Lighthouse
+
 ![image](https://user-images.githubusercontent.com/85178695/127752187-4f481b3c-010b-4396-90f7-ecbaf64033ab.png)
 
 
 ## Deployment
 This website is hosted through GitHub and is deployed directly from the main branch. The deployed site will only update when new commits to the main branch have been pushed to GitHub.
+You can do this by following these steps
+1. Log in to Github and locate the Github repository
+2. Above the repository click on the "Settings" button
+3. From the menu on the side select "Pages"
+4. In the source section in the drop down box with "None" select "Branch: main"
+5. The section drop down box should be "/root"
+6. Press the "Save" button
+7. A yellow box will appear to say the site is being created
+8. Refresh your page until the message box turns green. It should say you site is published
+9. Right click on the link and open in a new tab
+
 ## Credits
 ### Content
 All content in the pages has been written by me.
