@@ -1050,6 +1050,79 @@ footer {
         float: left;
         font-size: 220%;
         margin-left: 30px;
+    }
 
+    .hero {
+        height: 600px;
+    }
+
+    .hero-image {
+        height: 600px;
+        background-size: 576px;
+    }
+
+    .hero-text {
+        font-size: 50%;
+        top: 210px;
+    }
+    
+    .info {
+        height: 150vh;
+    }
+
+    .timetable-main {
+        height: 170vh;
+        
+    }
+
+    .left-timetable {
+        width: 100%;
+        position: absolute;
+        top: 80vh;
+    }
+
+    .right-timetable {
+        width: 100%;
+        position: absolute;
+        top: 121vh;
+    }
+
+    .center-timetable {
+        width: 100%;
+        position: absolute;
+    }
+
+    .contact-us-main {
+        height: 120vh;
+    }
+
+    .signup-left {
+        width: 100%;
+    }
+
+    .signup-right {
+        width: 100%;
+    }
+
+    .signup-right img {
+        width: 320px;
+        height: 200px;
+    }
+
+    .signup {
+        margin-left: 0;
+    }
+
+    .contact-info-left {
+        width: 100%;
+    }
+
+    .contact-info-right { 
+        width: 100%;
+    }
+
+    #map {
+        width: 320px;
+    }
 
 }
