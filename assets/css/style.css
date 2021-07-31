@@ -389,6 +389,7 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .signup-left {
@@ -396,7 +397,9 @@ footer {
     padding-bottom: 30px;
     width: 40%;
     height: 400px;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .signup-right {
@@ -404,7 +407,9 @@ footer {
     padding-bottom: 30px;
     width: 60%;
     height: 400px;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .signup-right img {
@@ -418,17 +423,22 @@ footer {
 .contact-info-left {
     width: 40%;
     height: 350px;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact-info-right {
     width: 60%;
     height: 350px;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-info {
     margin-left: 20px;
     padding: 30px;
+    
 }
 
 .contact-info h2 {
@@ -896,9 +906,7 @@ footer {
         width: 50%;
         height: max-content;
         padding-top: 25px;
-        padding-bottom: 27px;
-        
-        
+        padding-bottom: 27px;    
     }
   
     .left-timetable img {
@@ -989,15 +997,20 @@ footer {
         height: max-content;
     }
 
+    .contact-us-main {
+        height: 120vh;
+    }
+
     .signup-left {
         width: 100%;
         height: max-content;
+        
     }
 
     .signup-right {
         width: 100%;
         height: max-content;
-        float: left;
+       
     }
 
     .signup {
