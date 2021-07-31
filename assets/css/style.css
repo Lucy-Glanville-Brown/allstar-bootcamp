@@ -1042,3 +1042,14 @@ footer {
     }
 }
 
+/* For small screen sizes 576px and down */
+
+@media screen and (max-width: 576px) {
+    
+    .logo {
+        float: left;
+        font-size: 220%;
+        margin-left: 30px;
+
+
+}
