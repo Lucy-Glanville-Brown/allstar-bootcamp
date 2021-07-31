@@ -71,7 +71,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image-1.jpg') no-repeat center center;
-    background-size: 1550px;
+    background-size: 3000px;
 }
 
 .hero-text {
@@ -169,7 +169,7 @@ footer {
 /* timetable */
 
 .timetable-main {
-    height: 70vh;
+    height: 90vh;
     position: relative;
     display: flex;
     width: 100%;
@@ -252,7 +252,7 @@ footer {
 /* more info*/
 
 .more-info-main {
-    height: 110vh;
+    height: 130vh;
     position: relative;
     display: flex;
     width: 100%;
@@ -409,7 +409,7 @@ footer {
 /* contact us */
 
 .contact-us-main {
-    height: 90vh;
+    height: 120vh;
     position: relative;
     display: flex;
     width: 100%;
@@ -547,9 +547,15 @@ footer {
     }
 
     .hero {
-        width: 100%;
         height: 600px;
-        margin: 0 auto;
+    }
+
+    .hero-image {
+        background-size: 1200px;
+    }
+
+    .hero-text {
+        right: 30px;
     }
 
     .info {
@@ -629,7 +635,7 @@ footer {
     
     .hero img {
         width: 100%;
-        height: auto;
+        height: 400px;
     }
         
     .hero-text {
@@ -641,7 +647,7 @@ footer {
         }
         
     .info {
-        height: 500px;
+        height: 60vh;
     }
         
     .left-home {
@@ -672,6 +678,7 @@ footer {
         height: auto;
         padding-top: 10px;
     }
+
     .left-timetable img {
         width: 250px;
         height: 150px;
@@ -682,7 +689,9 @@ footer {
         width: 50%;
         height: auto;
         padding-top: 10px;
-        float: left;
+        position: absolute;
+        left: 0.5vw;
+        top: 40vh;
     }
 
     .right-timetable img {
@@ -701,11 +710,11 @@ footer {
 
     .grid-container {
         width: 60%;
-        height: 80%;
+        height: max-content;
     }
 
     .more-info-main {
-        height: 150vh;
+        height: 90vh;
         padding: 5px;
     }
 
@@ -1045,46 +1054,63 @@ footer {
 /* For small screen sizes 576px and down */
 
 @media screen and (max-width: 576px) {
+
+    .menu {
+        clear: left;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 80%;
+    }
+
+    .logo {
+        font-size:;
+    }
     
     .logo {
         float: left;
-        font-size: 220%;
+        font-size: 110%;
         margin-left: 30px;
     }
 
     .hero {
-        height: 600px;
+        height: 250px;
+        padding: 0;
+        margin: 0;
     }
 
     .hero-image {
-        height: 600px;
+        height: 250px;
         background-size: 576px;
     }
 
     .hero-text {
         font-size: 50%;
-        top: 210px;
+        top: 180px;
     }
     
     .info {
-        height: 150vh;
+        height: 180vh;
     }
 
     .timetable-main {
-        height: 170vh;
+        height: 220vh;
         
     }
 
     .left-timetable {
         width: 100%;
         position: absolute;
-        top: 80vh;
+        top: 100vh;
     }
 
     .right-timetable {
         width: 100%;
         position: absolute;
-        top: 121vh;
+        top: 151vh;
     }
 
     .center-timetable {
@@ -1092,8 +1118,12 @@ footer {
         position: absolute;
     }
 
+    .more-info-main {
+        height: 190vh;
+    }
+
     .contact-us-main {
-        height: 120vh;
+        height: 170vh;
     }
 
     .signup-left {
