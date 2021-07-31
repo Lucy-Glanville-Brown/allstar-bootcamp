@@ -1093,24 +1093,24 @@ footer {
     }
     
     .info {
-        height: 180vh;
+        height: 300vh;
     }
 
     .timetable-main {
-        height: 220vh;
+        height: 350vh;
         
     }
 
     .left-timetable {
         width: 100%;
         position: absolute;
-        top: 100vh;
+        top: 165vh;
     }
 
     .right-timetable {
         width: 100%;
         position: absolute;
-        top: 151vh;
+        top: 255vh;
     }
 
     .center-timetable {
@@ -1118,12 +1118,16 @@ footer {
         position: absolute;
     }
 
+    .grid-container h2, h3, div {
+        font-size: 30px;
+    }
+
     .more-info-main {
-        height: 190vh;
+        height: 300vh;
     }
 
     .contact-us-main {
-        height: 170vh;
+        height: 300vh;
     }
 
     .signup-left {
@@ -1141,6 +1145,18 @@ footer {
 
     .signup {
         margin-left: 0;
+    }
+
+    .signup-form h2, label, input {
+        font-size: 20px;
+    }
+
+    .signup-form {
+        margin-left: 2.5px;
+    }
+
+    .join-button {
+        font-size: 20px;
     }
 
     .contact-info-left {
