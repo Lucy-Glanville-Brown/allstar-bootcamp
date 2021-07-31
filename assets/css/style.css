@@ -1088,8 +1088,18 @@ footer {
     }
 
     .hero-text {
-        font-size: 50%;
-        top: 180px;
+        top: 120px;
+        left: 170px;
+        width: 40vw;
+        
+    }
+
+    .hero-text h2 {
+        font-size: 12px;
+    }
+
+    .hero-text h3 {
+        font-size: 8px;
     }
     
     .info {
