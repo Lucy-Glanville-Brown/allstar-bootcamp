@@ -3,7 +3,7 @@ Portfolio Project 1 - Code Institute
 
 This is a website for a Fitness Bootcamp in West Sussex. I am passionate about bootcamp style fitness having attended many sessions over the years and being impressed by what you can achieve when encouraged by others within a group.  I want the Allstar Fitness site to encourage users of the site to feel inspired to try a session and share the experience.
 Information in the pages should portray the feeling of the team spirit and comradery within the group. There is a timetable of the days and times of the sessions, plus examples of the equipment and exercises that could be used.  There is also a contact page where the user can sign up and see a map of the location.  
-The target audience would be people of all ages and abilities that are interested in group fitness.
+The target audience would be people of all ages and abilities that are interested in group fitness in the local area.
 
 ![Am I Responsive Screenshot](https://user-images.githubusercontent.com/85178695/127766623-b66fb59f-8cd7-442c-b931-beba7b839ad6.png)
 
@@ -27,35 +27,34 @@ The wireframes were created using Balsamiq.
 
 #### Homepage
 
-![Hompage Laptop](https://user-images.githubusercontent.com/85178695/127766331-95bf2cc5-0c26-443e-9bec-2a3e4f66f814.png)
+![Hompage Laptop](https://user-images.githubusercontent.com/85178695/127766331-95bf2cc5-0c26-443e-9bec-2a3e4f66f814.png)    
 
-![Homepage Tablet](https://user-images.githubusercontent.com/85178695/127766338-8862acce-ccc7-4318-b089-acc238905eed.png)
+![Homepage Tablet](https://user-images.githubusercontent.com/85178695/127766338-8862acce-ccc7-4318-b089-acc238905eed.png)   
 
 ![Homepage Smartphone](https://user-images.githubusercontent.com/85178695/127766349-d2557f9e-20c4-4446-baf2-4a786e481668.png)
 
 #### Timetable
 
-![Timetable Laptop](https://user-images.githubusercontent.com/85178695/127766366-04850359-b926-40a8-98a4-5608772d7fb2.png)
+![Timetable Laptop](https://user-images.githubusercontent.com/85178695/127766366-04850359-b926-40a8-98a4-5608772d7fb2.png)  
 
-![Timetable Tablet](https://user-images.githubusercontent.com/85178695/127766372-64021a7e-a3d7-4b11-9f8f-8c45dfaa9d6a.png)
+![Timetable Tablet](https://user-images.githubusercontent.com/85178695/127766372-64021a7e-a3d7-4b11-9f8f-8c45dfaa9d6a.png)  
 
 ![Timetable Smartphone](https://user-images.githubusercontent.com/85178695/127766377-b1cfcdce-a7f2-4de5-bc11-5fc653b67b89.png)
 
 #### More Info
 
-![More Info Laptop](https://user-images.githubusercontent.com/85178695/127766389-8921268e-2003-4bf9-8a88-abd87bbb7988.png)
+![More Info Laptop](https://user-images.githubusercontent.com/85178695/127766389-8921268e-2003-4bf9-8a88-abd87bbb7988.png)  
 
-
-![More Info Tablet](https://user-images.githubusercontent.com/85178695/127766393-b460e4ec-3cc3-4874-9f6b-e18ec7c3020b.png)
+![More Info Tablet](https://user-images.githubusercontent.com/85178695/127766393-b460e4ec-3cc3-4874-9f6b-e18ec7c3020b.png)  
 
 ![More Info Smartphone](https://user-images.githubusercontent.com/85178695/127766397-6644a33a-1e52-4b46-9bbf-b8e3550d054e.png)
 
 
 #### Contact Us
 
-![Contact Us Laptop](https://user-images.githubusercontent.com/85178695/127766403-cbd6ff6a-e55a-4e68-aeb6-f8bf454424bd.png)
+![Contact Us Laptop](https://user-images.githubusercontent.com/85178695/127766403-cbd6ff6a-e55a-4e68-aeb6-f8bf454424bd.png) 
 
-![Contact Us Tablet](https://user-images.githubusercontent.com/85178695/127766406-a67a66c0-c1ed-4f74-b08c-9e84b5b80e0c.png)
+![Contact Us Tablet](https://user-images.githubusercontent.com/85178695/127766406-a67a66c0-c1ed-4f74-b08c-9e84b5b80e0c.png) 
 
 ![Contact Us Smartphone](https://user-images.githubusercontent.com/85178695/127766411-acb758a7-1879-49f2-bfd6-b71194380450.png)
 
@@ -108,6 +107,7 @@ I decided to use “Josefin Sans” and “San-serif” for the main body text w
 
 •	About us section includes a brief introduction to what the bootcamp is about and a short bio about the personal trainer.
 
+
 ![image](https://user-images.githubusercontent.com/85178695/127766508-ea553b3c-db56-4a3a-ad7e-d63b88b06b42.png)
 
 
@@ -148,28 +148,9 @@ I decided to use “Josefin Sans” and “San-serif” for the main body text w
 ![image](https://user-images.githubusercontent.com/85178695/127766611-7e9b787e-02f5-43e3-bf4d-120b0459eea3.png)
 
 
-
-
-
-
 ## Testing
 •	W3C Markup Validator
 
-index.html - section for the footer lacks heading
-
-![image](https://user-images.githubusercontent.com/85178695/127752143-5caeec8d-865c-441e-84b2-28bbf48b6158.png)
-
-timetable.html - section for the footer lacks heading
-
-![image](https://user-images.githubusercontent.com/85178695/127752144-021dac46-5dcf-45b7-b556-71a61d342d32.png)
-
-more-info.html - section for the footer lacks heading
-
-![image](https://user-images.githubusercontent.com/85178695/127752147-d97c6e2c-8465-40e2-8489-654ad3203d61.png)
-
-contact-us.html - section for the footer lacks heading
-
-![image](https://user-images.githubusercontent.com/85178695/127752148-e90b0261-f2f3-4394-b947-1a3104834c2c.png)
 
 
 •	W3C CSS Validator
