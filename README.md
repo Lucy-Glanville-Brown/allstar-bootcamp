@@ -20,7 +20,7 @@ My goal in the design was to include minimalist but useful information with eye 
 For the users I wanted to provide them with a brief overview of what the bootcamp does on the homepage with the option to find out more by clicking on the links to the other pages.
 
 ### Structure
-I wanted the homepage to be eye catching with a brief introduction to what the bootcamp is with the option to find out more by visiting the other pages. The navigation is clear to see and easy to use but I have also included links within the sections of each page.
+I wanted the homepage to be eye catching with a brief introduction to what the bootcamp is all about with the option to find out more by visiting the other pages. The navigation is clear to see and easy to use.
 
 ### Skeleton
 The wireframes were created using Balsamiq.
@@ -63,7 +63,7 @@ The wireframes were created using Balsamiq.
 Each of the images used have similar colours and if there was more than one image on a page I tried to keep the colours the same. I wanted some of the images to show the team work and comradery between the participants.
 
 #### Colours
-The color chosen for the hero-text, timetable and sign-up form backgrounds was choosen using https://coolors.co/. I wanted a colour that would stand out but wouldn't look out of place against the hero image.
+The colour chosen for the hero-text, timetable and sign-up form backgrounds was chosen using https://coolors.co/. I wanted a colour that would stand out but wouldn't look out of place against the hero image.
 
 #### Typography
 I decided to use “Josefin Sans” and “San-serif” for the main body text with “Raleway” and “Sans-Serif” for the headings. These were found by exploring Google Fonts.
@@ -183,6 +183,10 @@ All content in the pages has been written by me.
 All photos were taken from Shutterstock and pixabay which are image libraries.
 ### Acknowledgements
 To create the timetable grid container I researched how to do this on W3 Schools https://www.w3schools.com/css/css_grid_container.asp
+
+I also used display: flex in some of the css styling which I looked up on W3 Schools https://www.w3schools.com/css/css3_flexbox.asp and also found this useful flexbox cheat sheet https://jonitrythall.com/content/flexboxsheet.pdf
+
+
 
 
 
