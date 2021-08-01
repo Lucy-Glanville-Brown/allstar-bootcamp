@@ -149,8 +149,9 @@ I decided to use “Josefin Sans” and “San-serif” for the main body text w
 
 
 ## Testing
-•	W3C Markup Validator
+•	W3C Markup Validator - I have tested all 4 html pages and there were no errors
 
+![image](https://user-images.githubusercontent.com/85178695/127767253-0a257881-ce0d-4970-8a90-80479e614053.png)
 
 
 •	W3C CSS Validator
