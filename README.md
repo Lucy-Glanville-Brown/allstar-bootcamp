@@ -5,6 +5,9 @@ This is a website for a Fitness Bootcamp in West Sussex. I am passionate about b
 Information in the pages should portray the feeling of the team spirit and comradery within the group. There is a timetable of the days and times of the sessions, plus examples of the equipment and exercises that could be used.  There is also a contact page where the user can sign up and see a map of the location.  
 The target audience would be people of all ages and abilities that are interested in group fitness.
 
+![Am I Responsive Screenshot](https://user-images.githubusercontent.com/85178695/127766623-b66fb59f-8cd7-442c-b931-beba7b839ad6.png)
+
+
 
 ## UX
 ### User Stories
@@ -20,6 +23,41 @@ For the users I wanted to provide them with a brief overview of what the bootcam
 I wanted the homepage to be eye catching with a brief introduction to what the bootcamp is with the option to find out more by visiting the other pages. The navigation is clear to see and easy to use but I have also included links within the sections of each page.
 
 ### Skeleton
+The wireframes were created using Balsamiq.
+
+#### Homepage
+
+![Hompage Laptop](https://user-images.githubusercontent.com/85178695/127766331-95bf2cc5-0c26-443e-9bec-2a3e4f66f814.png)
+
+![Homepage Tablet](https://user-images.githubusercontent.com/85178695/127766338-8862acce-ccc7-4318-b089-acc238905eed.png)
+
+![Homepage Smartphone](https://user-images.githubusercontent.com/85178695/127766349-d2557f9e-20c4-4446-baf2-4a786e481668.png)
+
+#### Timetable
+
+![Timetable Laptop](https://user-images.githubusercontent.com/85178695/127766366-04850359-b926-40a8-98a4-5608772d7fb2.png)
+
+![Timetable Tablet](https://user-images.githubusercontent.com/85178695/127766372-64021a7e-a3d7-4b11-9f8f-8c45dfaa9d6a.png)
+
+![Timetable Smartphone](https://user-images.githubusercontent.com/85178695/127766377-b1cfcdce-a7f2-4de5-bc11-5fc653b67b89.png)
+
+#### More Info
+
+![More Info Laptop](https://user-images.githubusercontent.com/85178695/127766389-8921268e-2003-4bf9-8a88-abd87bbb7988.png)
+
+
+![More Info Tablet](https://user-images.githubusercontent.com/85178695/127766393-b460e4ec-3cc3-4874-9f6b-e18ec7c3020b.png)
+
+![More Info Smartphone](https://user-images.githubusercontent.com/85178695/127766397-6644a33a-1e52-4b46-9bbf-b8e3550d054e.png)
+
+
+#### Contact Us
+
+![Contact Us Laptop](https://user-images.githubusercontent.com/85178695/127766403-cbd6ff6a-e55a-4e68-aeb6-f8bf454424bd.png)
+
+![Contact Us Tablet](https://user-images.githubusercontent.com/85178695/127766406-a67a66c0-c1ed-4f74-b08c-9e84b5b80e0c.png)
+
+![Contact Us Smartphone](https://user-images.githubusercontent.com/85178695/127766411-acb758a7-1879-49f2-bfd6-b71194380450.png)
 
 ### Surface
 #### Images
@@ -49,36 +87,68 @@ I decided to use “Josefin Sans” and “San-serif” for the main body text w
 
 •	I wanted the user to be able to easily navigate through the website by creating a fixed-top navbar.
 
+![image](https://user-images.githubusercontent.com/85178695/127766439-b600b28c-4c77-462f-a449-9dbb3ff434bf.png)
+
+
 ### Footer
 •	The footer section includes links to the facebook, Instagram and twitter social sites which open to a new tab.  
+
+![image](https://user-images.githubusercontent.com/85178695/127766463-7e717706-3760-469e-89ec-a4b7548f3671.png)
+
 
 ### Homepage
 •	Contains a hero-image which draws the users attention 
 
 •	There is also a text box over the hero-image with some buzz words to encourage the user to read on
 
+![image](https://user-images.githubusercontent.com/85178695/127766492-17c584bf-d3dc-4fef-8a75-973170b1f2be.png)
+
+
 •	Photo of Personal Trainer to show who you will be working with
 
 •	About us section includes a brief introduction to what the bootcamp is about and a short bio about the personal trainer.
 
+![image](https://user-images.githubusercontent.com/85178695/127766508-ea553b3c-db56-4a3a-ad7e-d63b88b06b42.png)
+
+
 ### Timetable
 •	The Timetable page shows a timetable of the sessions and some images to demonstrate the various exercises and equipment that could be used in a session.
+
+![image](https://user-images.githubusercontent.com/85178695/127766528-aa236cb4-1bd7-4ae5-a6ef-ded44d4e34a9.png)
+
 
 ### More Info
 •	More Info section has more encouraging information, plus a link back to the Timetable page. 
 
+![image](https://user-images.githubusercontent.com/85178695/127766551-97b8bd9c-204d-48f1-8e3a-028a867e6c7b.png)
+
+
 •	Bootcamp section has a list of the equipment you could use in a session and an image 
+
+![image](https://user-images.githubusercontent.com/85178695/127766562-67dd6b32-0875-4d3b-9cd1-228db056757f.png)
+
 
 •	Exercises section has a list of exercises a session could include and an image 
 
+![image](https://user-images.githubusercontent.com/85178695/127766568-89f20eb7-d12a-427b-ab34-5595c676ec35.png)
+
+
 ### Contact Us
 •	Signup Form where you can enter and submit details to sign up
+
+•	Image showing people enjoying the bootcamp
+
+![image](https://user-images.githubusercontent.com/85178695/127766587-74c2fe96-147f-4c97-94b5-3aca7210cbc3.png)
+
 
 •	Contact Us includes details on how to contact the bootcamp
 
 •	Map shows the location of the bootcamp
 
-•	Image showing people enjoying the bootcamp
+![image](https://user-images.githubusercontent.com/85178695/127766611-7e9b787e-02f5-43e3-bf4d-120b0459eea3.png)
+
+
+
 
 
 
