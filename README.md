@@ -8,6 +8,7 @@ The target audience would be people of all ages and abilities that are intereste
 ![Am I Responsive Screenshot](https://user-images.githubusercontent.com/85178695/127766623-b66fb59f-8cd7-442c-b931-beba7b839ad6.png)
 
 
+View the live project [here](https://lucy-glanville-brown.github.io/allstar-bootcamp/index.html)
 
 ## UX
 ### User Stories
